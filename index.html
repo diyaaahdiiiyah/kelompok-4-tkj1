@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Resmi SMPN 1 TIRTO</title>
+    <!-- Memuat Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Memuat Google Font (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Menggunakan font Inter sebagai default */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-orange-50 text-gray-800">
+
+    <!-- HEADER DAN NAVIGASI -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo dan Nama Sekolah (Pojok Kiri Atas) -->
+            <a href="#home" class="flex items-center space-x-3">
+                <!-- Placeholder untuk Logo -->
+                <img src="https://placehold.co/50x50/f97316/white?text=LOGO&font=sans" alt="Logo SMPN 1 TIRTO" class="h-12 w-12 rounded-full object-cover">
+                <span class="text-xl font-bold text-orange-600">SMPN 1 TIRTO</span>
+            </a>
+
+            <!-- Navigasi Desktop (Disembunyikan di HP) -->
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#latar-belakang" class="text-gray-600 hover:text-orange-500 transition duration-300">Profil</a>
+                <a href="#visimisi" class="text-gray-600 hover:text-orange-500 transition duration-300">Visi Misi</a>
+                <a href="#guru" class="text-gray-600 hover:text-orange-500 transition duration-300">Data Guru</a>
+                <a href="#akademik" class="text-gray-600 hover:text-orange-500 transition duration-300">Akademik</a>
+                <a href="#prestasi" class="text-gray-600 hover:text-orange-500 transition duration-300">Prestasi</a>
+                <a href="#ekstra" class="text-gray-600 hover:text-orange-500 transition duration-300">Ekstrakurikuler</a>
+                <a href="#kegiatan" class="text-gray-600 hover:text-orange-500 transition duration-300">Kegiatan</a>
+                <a href="#kontak" class="text-gray-600 hover:text-orange-500 transition duration-300">Kontak</a>
+                <a href="#pendaftaran" class="bg-orange-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300 shadow-lg">Pendaftaran</a>
+            </div>
+
+            <!-- Tombol Menu Mobile (Hanya tampil di HP) -->
+            <button class="md:hidden text-orange-600">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <!-- Disarankan: Tambahkan menu mobile dropdown di sini dengan JavaScript -->
+    </header>
+
+    <!-- KONTEN UTAMA -->
+    <main>
+
+        <!-- Bagian Home/Hero -->
+        <section id="home" class="relative bg-orange-100 h-[300px] md:h-[450px] flex items-center justify-center text-center">
+            <!-- Placeholder Gambar Latar Belakang Sekolah -->
+            <img src="https://placehold.co/1200x450/fed7aa/a16207?text=Gedung+SMPN+1+TIRTO" alt="Gedung Sekolah SMPN 1 TIRTO" class="w-full h-full object-cover absolute inset-0 opacity-40">
+            <div class="relative z-10 p-6">
+                <h1 class="text-3xl md:text-5xl font-bold text-orange-800 mb-4">Selamat Datang di SMPN 1 TIRTO</h1>
+                <p class="text-lg md:text-xl text-orange-700">Mencetak Generasi Unggul, Berkarakter, dan Berprestasi</p>
+            </div>
+        </section>
+
+        <!-- Latar Belakang -->
+        <section id="latar-belakang" class="py-16 md:py-24 px-6">
+            <div class="container mx-auto max-w-4xl text-center">
+                <h2 class="text-3xl font-bold text-orange-700 mb-6">Latar Belakang SMPN 1 TIRTO</h2>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    SMPN 1 Tirto, yang berlokasi strategis di jantung Kecamatan Tirto, Kabupaten Pekalongan, memiliki sejarah panjang dalam mendedikasikan diri untuk pendidikan. Sejak didirikan, sekolah kami berkomitmen untuk menyediakan lingkungan belajar yang aman, nyaman, dan inspiratif. Kami percaya bahwa setiap siswa memiliki potensi unik yang harus dikembangkan melalui kurikulum yang seimbang antara akademik dan non-akademik, didukung oleh fasilitas memadai dan tenaga pengajar profesional.
+                </p>
+            </div>
+        </section>
+
+        <!-- Visi Misi -->
+        <section id="visimisi" class="py-16 md:py-24 px-6 bg-orange-100">
+            <div class="container mx-auto max-w-5xl">
+                <h2 class="text-3xl font-bold text-orange-700 mb-12 text-center">Visi & Misi</h2>
+                <div class="grid md:grid-cols-2 gap-10">
+                    <!-- Visi -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
+                        <h3 class="text-2xl font-semibold text-orange-600 mb-4">Visi</h3>
+                        <p class="text-lg text-gray-700">
+                            "Terwujudnya peserta didik yang religius, cerdas, terampil, berkarakter, dan berwawasan lingkungan."
+                        </p>
+                    </div>
+                    <!-- Misi -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
+                        <h3 class="text-2xl font-semibold text-orange-600 mb-4">Misi</h3>
+                        <ol class="list-decimal list-inside text-gray-700 space-y-2">
+                            <li>Melaksanakan pembelajaran dan bimbingan secara efektif.</li>
+                            <li>Menumbuhkan semangat keunggulan secara intensif.</li>
+                            <li>Mendorong siswa mengenali potensi dirinya.</li>
+                            <li>Menanamkan nilai-nilai keagamaan dan budi pekerti luhur.</li>
+                            <li>Menciptakan lingkungan sekolah yang bersih, sehat, dan asri.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Guru -->
+        <section id="guru" class="py-16 md:py-24 px-6">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-orange-700 mb-12 text-center">Data Guru & Tenaga Pendidik</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                    <!-- Contoh Kartu Guru 1 -->
+                    <div class="bg-white rounded-lg shadow-lg text-center p-6 transition-transform transform hover:scale-105">
+                        <img src="https://placehold.co/150x150/fed7aa/a16207?text=Foto" alt="Foto Guru" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-orange-200">
+                        <h4 class="text-xl font-semibold text-orange-800">Drs. Budi Hartono, M.Pd.</h4>
+                        <p class="text-gray-600">Kepala Sekolah</p>
+                    </div>
+                    <!-- Contoh Kartu Guru 2 -->
+                    <div class="bg-white rounded-lg shadow-lg text-center p-6 transition-transform transform hover:scale-105">
+                        <img src="https://placehold.co/150x150/fed7aa/a16207?text=Foto" alt="Foto Guru" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-orange-200">
+                        <h4 class="text-xl font-semibold text-orange-800">Siti Nurhaliza, S.Pd.</h4>
+                        <p class="text-gray-600">Guru Matematika</p>
+                    </div>
+                    <!-- Contoh Kartu Guru 3 -->
+                    <div class="bg-white rounded-lg shadow-lg text-center p-6 transition-transform transform hover:scale-105">
+                        <img src="https://placehold.co/150x150/fed7aa/a16207?text=Foto" alt="Foto Guru" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-orange-200">
+                        <h4 class="text-xl font-semibold text-orange-800">Agus Wijayanto, S.Kom.</h4>
+                        <p class="text-gray-600">Guru TIK</p>
+                    </div>
+                    <!-- Contoh Kartu Guru 4 -->
+                    <div class="bg-white rounded-lg shadow-lg text-center p-6 transition-transform transform hover:scale-105">
+                        <img src="https://placehold.co/150x150/fed7aa/a16207?text=Foto" alt="Foto Guru" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-orange-200">
+                        <h4 class="text-xl font-semibold text-orange-800">Rina Astuti, S.Pd.</h4>
+                        <p class="text-gray-600">Guru Bahasa Indonesia</p>
+                    </div>
+                    <!-- Tambahkan guru lain di sini -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Akademik -->
+        <section id="akademik" class="py-16 md:py-24 px-6 bg-orange-100">
+            <div class="container mx-auto max-w-5xl">
+                <h2 class="text-3xl font-bold text-orange-700 mb-12 text-center">Akademik</h2>
+                <div class="bg-white p-8 md:p-10 rounded-xl shadow-lg">
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Kami menerapkan Kurikulum Merdeka yang didukung oleh berbagai program unggulan untuk memaksimalkan potensi akademik siswa. Fasilitas pendukung seperti laboratorium IPA, laboratorium komputer, dan perpustakaan yang lengkap siap membantu proses belajar mengajar.
+                    </p>
+                    <h4 class="text-xl font-semibold text-orange-600 mb-4">Program Unggulan:</h4>
+                    <ul class="list-disc list-inside text-gray-700 space-y-3 text-lg">
+                        <li>Kelas Olimpiade (Matematika, IPA, IPS)</li>
+                        <li>Program Literasi dan Pojok Baca</li>
+                        <li>Pembelajaran Berbasis Proyek (P5)</li>
+                        <li>Studi Lapangan dan Kunjungan Edukatif</li>
+                        <li>Bimbingan Konseling dan Tes Minat Bakat</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prestasi Akademik -->
+        <section id="prestasi" class="py-16 md:py-24 px-6">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-orange-700 mb-12 text-center">Prestasi Akademik</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Contoh Prestasi 1 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg text-center border-t-4 border-orange-500 transition-transform transform hover:scale-105">
+                        <h3 class="text-xl font-semibold text-orange-800 mb-3">Juara 1 OSN Matematika</h3>
+                        <p class="text-gray-600">Tingkat Kabupaten<br>Tahun 2024</p>
+                    </div>
+                    <!-- Contoh Prestasi 2 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg text-center border-t-4 border-orange-500 transition-transform transform hover:scale-105">
+                        <h3 class="text-xl font-semibold text-orange-800 mb-3">Finalis Cerdas Cermat</h3>
+                        <p class="text-gray-600">Tingkat Provinsi<br>Tahun 2024</p>
+                    </div>
+                    <!-- Contoh Prestasi 3 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg text-center border-t-4 border-orange-500 transition-transform transform hover:scale-105">
+                        <h3 class="text-xl font-semibold text-orange-800 mb-3">Juara 3 Lomba KIR</h3>
+                        <p class="text-gray-600">Tingkat Nasional<br>Tahun 2023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ekstrakurikuler -->
+        <section id="ekstra" class="py-16 md:py-24 px-6 bg-orange-100">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-orange-700 mb-12 text-center">Ekstrakurikuler</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <!-- Item Ekstra 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center border-b-4 border-orange-500">
+                        <h4 class="text-xl font-semibold text-orange-800">Pramuka</h4>
+                    </div>
+                    <!-- Item Ekstra 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center border-b-4 border-orange-500">
+                        <h4 class="text-xl font-semibold text-orange-800">Paskibra</h4>
+                    </div>
+                    <!-- Item Ekstra 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center border-b-4 border-orange-500">
+                        <h4 class="text-xl font-semibold text-orange-800">Sepak Bola</h4>
+                    </div>
+                    <!-- Item Ekstra 4 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center border-b-4 border-orange-500">
+                        <h4 class="text-xl font-semibold text-orange-800">Bola Voli</h4>
+                    </div>
+                    <!-- Item Ekstra 5 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center border-b-4 border-orange-500">
+                        <h4 class="text-xl font-semibold text-orange-800">PMR</h4>
+                    </div>
+                    <!-- Item Ekstra 6 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center border-b-4 border-orange-500">
+                        <h4 class="text-xl font-semibold text-orange-800">Seni Tari</h4>
+                    </div>
+                    <!-- Item Ekstra 7 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center border-b-4 border-orange-500">
+                        <h4 class="text-xl font-semibold text-orange-800">Hadroh</h4>
+                    </div>
+                    <!-- Item Ekstra 8 -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center border-b-4 border-orange-500">
+                        <h4 class="text-xl font-semibold text-orange-800">KIR</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kegiatan Sekolah -->
+        <section id="kegiatan" class="py-16 md:py-24 px-6">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-orange-700 mb-12 text-center">Galeri Kegiatan Sekolah</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <!-- Placeholder Gambar Kegiatan -->
+                    <img src="https://placehold.co/400x300/fed7aa/a16207?text=Kegiatan+Olimpiade" alt="Kegiatan Sekolah" class="rounded-lg shadow-lg object-cover w-full h-full">
+                    <img src="https://placehold.co/400x300/fed7aa/a16207?text=Peringatan+17+Agustus" alt="Kegiatan Sekolah" class="rounded-lg shadow-lg object-cover w-full h-full">
+                    <img src="https://placehold.co/400x300/fed7aa/a16207?text=Bakti+Sosial" alt="Kegiatan Sekolah" class="rounded-lg shadow-lg object-cover w-full h-full">
+                    <img src="https://placehold.co/400x300/fed7aa/a16207?text=Pentas+Seni" alt="Kegiatan Sekolah" class="rounded-lg shadow-lg object-cover w-full h-full">
+                    <img src="https://placehold.co/400x300/fed7aa/a16207?text=Lomba+Pramuka" alt="Kegiatan Sekolah" class="rounded-lg shadow-lg object-cover w-full h-full">
+                    <img src="https://placehold.co/400x300/fed7aa/a16207?text=Studi+Lapangan" alt="Kegiatan Sekolah" class="rounded-lg shadow-lg object-cover w-full h-full">
+                </div>
+            </div>
+        </section>
+
+        <!-- Pendaftaran -->
+        <section id="pendaftaran" class="py-16 md:py-24 px-6 text-center bg-orange-500 text-white">
+            <div class="container mx-auto max-w-3xl">
+                <h2 class="text-3xl font-bold mb-6">Pendaftaran Siswa Baru (PPDB)</h2>
+                <p class="text-lg text-orange-50 mb-8">
+                    Penerimaan Peserta Didik Baru SMPN 1 TIRTO akan segera dibuka. Dapatkan informasi terbaru mengenai jadwal, alur, dan persyaratan pendaftaran melalui tautan di bawah ini.
+                </p>
+                <a href="#" class="bg-white text-orange-600 px-8 py-3 rounded-full font-bold text-lg shadow-lg hover:bg-orange-50 hover:text-orange-700 transition duration-300 transform hover:scale-105">
+                    Info PPDB 2025/2026
+                </a>
+            </div>
+        </section>
+
+        <!-- Kontak Sekolah -->
+        <section id="kontak" class="py-16 md:py-24 px-6 bg-orange-100">
+            <div class="container mx-auto max-w-4xl text-center">
+                <h2 class="text-3xl font-bold text-orange-700 mb-8">Kontak Sekolah</h2>
+                <div class="bg-white p-8 rounded-xl shadow-lg text-left grid md:grid-cols-2 gap-8">
+                    <!-- Info Kontak -->
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="font-semibold text-orange-600">Alamat:</h4>
+                            <p class="text-gray-700">Jl. Diponegoro No. 10, Tirto, Kab. Pekalongan, Jawa Tengah 51151</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-orange-600">Telepon:</h4>
+                            <p class="text-gray-700">(0285) 44831XX</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-orange-600">Email:</h4>
+                            <p class="text-gray-700">info@smpn1tirto.sch.id</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-orange-600">Jam Operasional:</h4>
+                            <p class="text-gray-700">Senin - Jumat: 07.00 - 15.00 WIB</p>
+                        </div>
+                    </div>
+                    <!-- Peta (Placeholder) -->
+                    <div>
+                        <h4 class="font-semibold text-orange-600 mb-2 text-center md:text-left">Lokasi Kami:</h4>
+                        <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-md">
+                            <img src="https://placehold.co/400x300/fed7aa/a16207?text=Peta+Lokasi+SMPN+1+TIRTO" alt="Peta Lokasi" class="w-full h-full object-cover">
+                            <!-- Ganti dengan iframe Google Maps jika perlu -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-orange-800 text-orange-200 p-8 text-center">
+        <div class="container mx-auto">
+            <p>&copy; 2025 SMPN 1 TIRTO. Seluruh hak cipta dilindungi.</p>
+            <p class="text-sm mt-2">Didesain dengan ❤️ untuk pendidikan.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
